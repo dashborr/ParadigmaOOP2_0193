@@ -18,4 +18,9 @@ class derivedclass : public baseclass{
         }
 };
 
-int main()
+int main(){
+    derivedclass a;
+    a.perkenalan();
+
+    return 0;
+}
