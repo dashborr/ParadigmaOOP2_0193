@@ -23,3 +23,9 @@ int main(){
     lampu.setSaklarno(1,"Lampu Ruang Tamu");
     lampu.setSaklarno(2,"Lampu Kamar Tidur");
     lampu.setSaklarno(3,"Lampu Dapur");
+
+    cout << lampu.getSaklarno(0) << endl;
+    cout << lampu.getSaklarno(1) << endl;
+    cout << lampu.getSaklarno(2) << endl;
+    cout << lampu.getSaklarno(3) << endl;
+}
