@@ -16,4 +16,10 @@ class remotelampu{
     }
 };
 
-int main()
+int main(){
+    remotelampu lampu;
+
+    lampu.setSaklarno(0,"Lampu Teras Rumah");
+    lampu.setSaklarno(1,"Lampu Ruang Tamu");
+    lampu.setSaklarno(2,"Lampu Kamar Tidur");
+    lampu.setSaklarno(3,"Lampu Dapur");
