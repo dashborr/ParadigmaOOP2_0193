@@ -15,3 +15,5 @@ class remotelampu{
         return saklarno[i];
     }
 };
+
+int main()
