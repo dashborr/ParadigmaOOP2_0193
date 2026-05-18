@@ -17,3 +17,5 @@ class derivedclass : public baseclass{
 
         }
 };
+
+int main()
